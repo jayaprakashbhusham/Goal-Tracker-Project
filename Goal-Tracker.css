@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    caret-color: transparent;
+}
+
+* {
+    font-family: sitka banner;
+}
+
+.main-bg-container {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.body-container {
+    padding: 20px;
+}
+
+.main-heading {
+    text-align: center;
+}
+
+.create-task-heading {
+    padding-top: 20px;
+}
+
+.user-input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    caret-color: auto;
+}
+
+.add-button,
+.save-button {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    height: 40px;
+    border: none;
+    width: 100px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.nav-bar-title {
+    font-weight: bold;
+}
+
+.my-goals-container {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.input-checkbox {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.label-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label-el {
+    background-color: #e6eaea;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 100%;
+    padding: 6px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.logo-img {
+    height: 50px;
+    width: 80px;
+}
+
+.delete-icon-container {
+    padding: 5px;
+    width: 5%;
+}
+
+.delete-icon {
+    font-size: 20px;
+}
+
+.goals-heading {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.theme-button {
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.about-us {
+    background-color: #ffdab9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.about-us-heading {
+    font-size: 28px;
+}
+
+.about-us-description {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #1b1b1b;
+}
+
+.icon-anchor-tag {
+    color: black;
+}
+
+.icon {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.contact-us-whatsapp {
+    font-family: none;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .main-heading,
+    .about-us-heading,
+    .create-task-heading,
+    .goals-heading {
+        font-size: 31px;
+    }
+
+    .about-us-description,
+    .description {
+        font-size: 13px;
+    }
+}
